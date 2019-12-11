@@ -14,9 +14,7 @@ public class testlist {
 */
     public static void main(String[] args) {
         List aaa=new ArrayList<>();
-        String a="aaa";
         for (int i = 0; i < 20; i++) {
-            System.out.println("111");
             aaa.add(i,i++);
             System.out.println("ss");
         }
