@@ -1,3 +1,4 @@
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,9 +14,9 @@ public class testlist {
 */
     public static void main(String[] args) {
         List aaa=new ArrayList<>();
-        int c=2;
+        String a="aaa";
         for (int i = 0; i < 20; i++) {
-            c++;
+            System.out.println("111");
             aaa.add(i,i++);
             System.out.println("ss");
         }
