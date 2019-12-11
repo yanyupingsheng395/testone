@@ -16,6 +16,11 @@ public class testlist {
         for (int i = 0; i < 20; i++) {
             aaa.add(i);
             aaa.add(i,i++);
+            system.out.println("1111");
+            system.out.println("1111");
+            system.out.println("1111");system.out.println("1111");
+            system.out.println("1111");
+            system.out.println("1111");
         }
     }
 }
