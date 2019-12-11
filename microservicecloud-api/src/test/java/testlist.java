@@ -13,14 +13,11 @@ public class testlist {
 */
     public static void main(String[] args) {
         List aaa=new ArrayList<>();
+        List bbb=new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             aaa.add(i);
             aaa.add(i,i++);
-            system.out.println("1111");
-            system.out.println("1111");
-            system.out.println("1111");system.out.println("1111");
-            system.out.println("1111");
-            system.out.println("1111");
+            bbb.add(i);
         }
     }
 }
